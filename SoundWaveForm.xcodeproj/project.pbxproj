@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		308C4468262B1F5F00134BFE /* Example_macOS.app in Resources */ = {isa = PBXBuildFile; fileRef = E5B0ED571F238B6B005D1A58 /* Example_macOS.app */; };
 		E54A51C41F2729D400BDBD18 /* Taha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54A51C31F2729D400BDBD18 /* Taha.mp3 */; };
 		E54A51C51F2729D400BDBD18 /* Taha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E54A51C31F2729D400BDBD18 /* Taha.mp3 */; };
 		E5732E2B1F25EA0A0077642B /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5732E281F25EA0A0077642B /* ExampleViewController.swift */; };
@@ -323,7 +322,6 @@
 					};
 					E5B0ED561F238B6B005D1A58 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = LX7WHQV846;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
@@ -334,7 +332,6 @@
 					};
 					E5B0ED761F238BB2005D1A58 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = LX7WHQV846;
 						LastSwiftMigration = 1130;
 						ProvisioningStyle = Automatic;
 					};
@@ -376,7 +373,6 @@
 				E54A51C41F2729D400BDBD18 /* Taha.mp3 in Resources */,
 				E5B0ED5E1F238B6B005D1A58 /* Assets.xcassets in Resources */,
 				E5B0ED611F238B6B005D1A58 /* Main.storyboard in Resources */,
-				308C4468262B1F5F00134BFE /* Example_macOS.app in Resources */,
 				E58D2F201F273CF900C7D97F /* Beat110.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -684,10 +680,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5B74SV6534;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Example_macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -695,7 +691,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pereira-da-silva.ExampleMacOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -708,10 +704,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5B74SV6534;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Example_macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -719,7 +715,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pereira-da-silva.ExampleMacOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -794,14 +790,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5B74SV6534;
 				INFOPLIST_FILE = Example_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pereira-da-silva.ExampleIOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -818,14 +813,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5B74SV6534;
 				INFOPLIST_FILE = Example_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pereira-da-silva.ExampleIOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
