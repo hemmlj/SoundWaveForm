@@ -69,6 +69,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		308C44BB262B387100134BFE /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
 		E54A51C31F2729D400BDBD18 /* Taha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Taha.mp3; sourceTree = "<group>"; };
 		E5732E281F25EA0A0077642B /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 		E58D2F1F1F273CF900C7D97F /* Beat110.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Beat110.mp3; sourceTree = "<group>"; };
@@ -138,6 +139,7 @@
 		E5B0ECED1F238A40005D1A58 = {
 			isa = PBXGroup;
 			children = (
+				308C44BB262B387100134BFE /* TestPlan.xctestplan */,
 				E5732E261F25EA0A0077642B /* Shared */,
 				E5B0ED891F238C24005D1A58 /* Sources */,
 				E5B0ECF91F238A40005D1A58 /* SoundWaveForm */,
